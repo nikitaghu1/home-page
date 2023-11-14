@@ -1,13 +1,13 @@
-import ContainerCardFormFilter from "../components/container-card-form-filter";
-import CountryFilterForm from "../components/country-filter-form";
-import Property1Group179 from "../components/property1-group179";
-import ContainerForm2 from "../components/container-form2";
-import GroupComponent7 from "../components/group-component7";
-import ManageContainer from "../components/manage-container";
-import ContainerForm from "../components/container-form";
-import HireAnywhereCard1 from "../components/hire-anywhere-card1";
-import ContainerForm1 from "../components/container-form1";
-import GlobalPayrollContainer from "../components/global-payroll-container";
+import ContainerCardFormFilter from "./components/container-card-form-filter";
+import CountryFilterForm from "./components/country-filter-form";
+import Property1Group179 from "./components/property1-group179";
+import ContainerForm2 from "./components/container-form2";
+import GroupComponent7 from "./components/group-component7";
+import ManageContainer from "./components/manage-container";
+import ContainerForm from "./components/container-form";
+import HireAnywhereCard1 from "./components/hire-anywhere-card1";
+import ContainerForm1 from "./components/container-form1";
+import GlobalPayrollContainer from "./components/global-payroll-container";
 
 const Pay = () => {
   return (

@@ -37,8 +37,15 @@ const menu_items=[
             priority
           />
           <ul>
-          <Link href="/manage"><li>Manage</li></Link>"
-          <Link href="/Pay"><li>Pay</li></Link>"
+          <Link href="/manage"><li>manage</li></Link>
+          <Link href="/payroll"><li>payroll</li></Link>
+          <Link href="/pay"><li>pay</li></Link>
+          <Link href="/hire"><li>hire</li></Link>
+          <Link href="/credit"><li>credit</li></Link>
+          <Link href="/onboard"><li>onboard</li></Link>
+          <Link href="/help"><li>help</li></Link>
+          <Link href="/why"><li>why</li></Link>
+          <Link href="/faq"><li>faq</li></Link>
            {menu_items.map((item,index)=>{
             return <MenuItem item={item} key={index} depth={1}/>
            })}
