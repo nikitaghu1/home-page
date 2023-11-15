@@ -7,6 +7,7 @@
   min-height: 100vh;
 }
 
+
 .description{
 position: absolute;
 top:38px;
@@ -34,28 +35,20 @@ top:38px;
     list-style:none;
   align-items: center;
   }
-  .parent{
-    position:relative;
-  }
+  
   .subMenuDropdown{
     position: absolute;
-    padding: 0;
-    display:flex;
-    left:0;
+    
+    
+    display:none !important;
+    left:40px;
+    height:200px;
     flex-direction:column;
     margin-top:15px;
-     min-width:50px;
+     
   }
-  .subMenuDropdownStyle{
-    position: absolute;
-   top:-18px;
-    left:100%;
-    
-  }
-  .subMenuDropdown li {
-     border:1px solid white;
-     width:100%
-  }
+  
+  
   .ArrowDown{
     margin-left: 10px;
     border-top: 0.5rem solid white;
@@ -80,6 +73,15 @@ top:38px;
     bottom: 71.22%;
     overflow:visible;
 
+    }
+    .showMenu{
+      display:block !important;
+      width:100px;
+
+    }
+    .hideMenu{
+      display:none !important;
+      
     }
 
 
